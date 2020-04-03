@@ -1,0 +1,441 @@
+// Containers
+.container {
+  width: 100%;
+  padding: 0 15px;
+  max-width: 960px;
+  margin: 0 auto;
+
+  &--min {
+    max-width: 850px;
+  }
+}
+
+// Flex items
+.flex {
+  display: flex;
+}
+
+.flex-inline {
+  display: inline-flex;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-auto {
+  flex: 1 1 auto;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+// Font
+.font-bold {
+  font-weight: 700;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.font-light {
+  font-weight: 300;
+}
+
+// line height
+.line-height-n {
+  line-height: normal;
+}
+
+// Width / Height
+.w-full {
+  width: 100%;
+}
+
+.w-200 {
+  width: 200px;
+}
+
+.w-130 {
+  width: 130px;
+}
+
+.max-w-500 {
+  max-width: 500px;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-300 {
+  height: 300px;
+}
+
+.h-200 {
+  height: 200px;
+}
+
+// padding
+.p-32 {
+  padding: 32px;
+}
+
+.p-25 {
+  padding: 25px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.py-5 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.px-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+// margin
+.mb-5 {
+  margin-bottom: 5px;
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-16 {
+  margin-top: 16px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-8 {
+  margin-right: 8px;
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.mr-a {
+  margin-right: auto;
+}
+
+.ml-a {
+  margin-left: auto;
+}
+
+.ml-5 {
+  margin-left: 5px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.mx-10 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.my-15 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.my-5 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+// text position
+.text-center {
+  text-align: center;
+}
+
+// Transform
+.revert {
+  transform: rotate(180deg);
+}
+
+// Text
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-trans-none {
+  text-transform: none;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-under {
+  text-decoration: underline;
+}
+
+// Text Size
+.text-11 {
+  font-size: 11px;
+}
+
+.text-15 {
+  font-size: 15px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-40 {
+  font-size: 40px;
+}
+
+.text-56 {
+  font-size: 56px;
+}
+
+// Text Color
+.text-white {
+  color: #fff;
+}
+
+.text-red-600 {
+  color: $colorRed600;
+}
+
+.text-gray-600 {
+  color: $colorGray600;
+}
+
+// opacity
+.opacity-75 {
+  opacity: .75;
+}
+
+// Activity
+.pointer-events {
+  pointer-events: none !important;
+  opacity: .6 !important;
+}
+
+.disableItem {
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+// Position
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
+}
+
+.top-15 {
+  top: 15px;
+}
+
+// Animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn 0.5s ease-in;
+}
+
+.transition {
+  transition: all .2s ease-out;
+}
+
+// Status Icon
+.statusIcon {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  display: inline-block;
+
+  &--large {
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+  }
+}
+
+// Video response
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// border
+.br-light {
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.bl-light {
+  border-left: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.border-dashed {
+  border: 1px dashed rgba(0, 0, 0, 0.12);
+}
+
+// Hover
+.hover-bg {
+
+  &:hover {
+    background-color: #ececec;
+  }
+}
+
+.cardTitleBlock {
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    z-index: -1,
+  }
+}
+
+.cardTitle {
+  background-color: #fff;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+// ScrollBar
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $colorScrollbarTrack;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: $colorScrollbarThumb;
+  border-radius: 5px;
+}
